@@ -1,5 +1,5 @@
 const {model} =require("mongoose");
-const {PositionsSchema}=require ('../schema/POsitionsSchema.js');
+const {PositionsSchema}=require ('../schema/PositionsSchema.js');
 
 const PositionsModel=new model("position",PositionsSchema);;
 
